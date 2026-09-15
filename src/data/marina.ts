@@ -280,7 +280,7 @@ export const fleetSale = {
 
 /** Numbers for the home page. Each traces to a line above. */
 export const stats = [
-  { n: "50 ft", label: "houseboats fit on A Dock" },
-  { n: "100 A", label: "of power at the pedestal" },
-  { n: "A+", label: "BBB rating, accredited since 2018" },
+  { n: "50 ft", label: "houseboats on A Dock" },
+  { n: "100 A", label: "at the pedestal" },
+  { n: "A+", label: "with the BBB since 2018" },
 ];

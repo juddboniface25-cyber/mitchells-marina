@@ -125,7 +125,7 @@ export default function Home() {
               {stats.map((s) => (
                 <div key={s.label} className="border border-ink p-4">
                   <p className="display text-4xl text-moss">{s.n}</p>
-                  <p className="eyebrow mt-1">{s.label}</p>
+                  <p className="eyebrow mt-1 break-words">{s.label}</p>
                 </div>
               ))}
             </div>
