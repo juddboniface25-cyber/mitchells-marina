@@ -1,6 +1,7 @@
 import Link from "next/link";
 import Image from "next/image";
 import { marina, contacts, hours } from "@/data/marina";
+import DbjCredit from "@/components/DbjCredit";
 
 export default function Footer() {
   return (
@@ -77,9 +78,9 @@ export default function Footer() {
         </div>
       </div>
       <div className="border-t border-paper/10">
-        <div className="mx-auto max-w-7xl px-4 sm:px-6 py-5 flex flex-col sm:flex-row gap-2 justify-between text-[0.7rem] tracking-[0.1em] uppercase text-paper/50">
+        <div className="mx-auto max-w-7xl px-4 sm:px-6 py-5 flex flex-col items-start sm:flex-row sm:items-center gap-2 justify-between text-[0.7rem] tracking-[0.1em] uppercase text-paper/50">
           <span>© {new Date().getFullYear()} {marina.name}</span>
-          <span className="whitespace-nowrap">Site by Designs by Judd</span>
+          <DbjCredit site="mitchells-marina" />
         </div>
       </div>
     </footer>
